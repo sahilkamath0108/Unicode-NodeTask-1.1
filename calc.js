@@ -1,4 +1,3 @@
-
 let noOfLines = prompt("Enter number of lines of input");
 
 var words = [];
@@ -44,6 +43,8 @@ for(var k=0; k<noOfLines-1; k++){
          wordCopy.splice(l,1," ");    //added a " " in place of repeated element as noOfLines should not have a problem while looping
          l=l-1;
        }
+    }else{
+      k++;
     }
   }
   console.log(countt);
